@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title></title>
+    <meta name="description" content="" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="index.css" />
+  </head>
+  <body>
+    <div>
+   <h1 id="result"></h1>
+    <div class="container">
+      <div class="child">
+        <h1>BlackJack user</h1>
+        <div>
+          <p>You'r Card : <span id="yourCard"></span></p>
+        </div>
+        <div>
+          <p>Sum : <span id="sum"></span></p>
+        </div>
+        <div class="button"><button onclick="addUserCard()" id="addbtn-el" >Add Card</button><button onclick="hold()" id="hold">Hold</button>></div>
+        </div>
+      <div class="child">
+        <h1>BlackJack computer</h1>
+        <div>
+          <p>Coumputer Card : <span id="compCard"></span></p>
+        </div>
+        <div>
+          <p>Sum : <span id="compSum"></span></p>
+        </div>
+        </div>
+    </div>
+    <div class="btn"><button onclick="reset()" id="reset">Reset Game</button></div>
+    </div>
+  </div>
+
+    <script src="javasccript.js" async defer></script>
+  </body>
+</html>
