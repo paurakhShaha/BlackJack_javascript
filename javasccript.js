@@ -47,7 +47,7 @@ function showUserCard() {
   userSum = 0;
 
   for (let i = 0; i < userCardArray.length; i++) {
-    yourCard.textContent += userCardArray[i] + " ";
+    yourCard.textContent += userCardArray[i] + " +";
     userSum += userCardArray[i];
   }
   sumHtml.textContent = userSum;
@@ -59,7 +59,7 @@ function showCompCard() {
   compCard.textContent = "";
   compCard.textContent = ""; // Clear previous content
   for (let i = 0; i < compCardArray.length; i++) {
-    compCard.textContent += compCardArray[i] + " ";
+    compCard.textContent += compCardArray[i] + " +";
     compSum += compCardArray[i];
   }
   compSumHtml.textContent = compSum;
